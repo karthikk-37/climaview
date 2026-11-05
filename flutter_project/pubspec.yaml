@@ -1,0 +1,29 @@
+name: climaview
+description: "A professional Material 3 Android Weather Application for final-year Computer Science Engineering college project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State Management (GP6)
+  provider: ^6.1.2
+  # HTTP Networking for Open-Meteo REST API (GP2)
+  http: ^1.2.1
+  # Local persistent storage for saved cities and settings (GP1)
+  shared_preferences: ^2.2.3
+  # Icons for Material 3 UI (GP7)
+  cupertino_icons: ^1.0.8
+  # Date formatting for multi-day forecasts (GP5)
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

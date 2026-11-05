@@ -1,0 +1,6 @@
+{
+  "name": "ClimaView - Android Weather App",
+  "description": "Professional Material 3 Android Weather Application built with Flutter, Provider, Open-Meteo API, and local persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
